@@ -1,0 +1,38 @@
+{
+  "name": "sol-wallet-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@solana/spl-token": "0.1.8",
+    "@solana/web3.js": "1.10.0",
+    "bignumber.js": "9.0.0",
+    "bip32": "^3.0.1",
+    "bip32-ed25519": "^0.0.4",
+    "bip39": "^3.0.4",
+    "bs58": "4.0.1",
+    "commander": "^9.2.0",
+    "ed25519-hd-key": "^1.2.0",
+    "tiny-secp256k1": "^2.2.1"
+  },
+  "devDependencies": {
+    "@midwayjs/cli": "^1.0.0",
+    "@midwayjs/luckyeye": "^1.0.0",
+    "@midwayjs/mock": "^2.3.0",
+    "@types/jest": "^26.0.10",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/node": "14",
+    "cross-env": "^6.0.0",
+    "jest": "^26.4.0",
+    "mwts": "^1.0.5",
+    "swagger-ui-dist": "^3.48.0",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
